@@ -30,6 +30,6 @@ document.ready(function(){
     url.hash = "";
     var host = "share.bkanisd.com";
     url.host = host;
-    url.protocol = "http";
+    url.protocol = "https";
     document.querySelector("#main").src = url.toString();
 });
