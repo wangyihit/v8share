@@ -28,5 +28,7 @@ document.ready(function(){
     url.search =
     hash.replace("#", "?");
     url.hash = "";
+    var host = "share.yikan123.tv";
+    url.host = host;
     document.querySelector("#main").src = url.toString();
 });
