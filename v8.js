@@ -30,6 +30,6 @@ document.ready(function(){
     url.hash = "";
     var host = "share.yikan123.tv";
     url.host = host;
-    url.schema = "http";
+    url.protocol = "http";
     document.querySelector("#main").src = url.toString();
 });
