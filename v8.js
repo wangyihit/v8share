@@ -28,8 +28,8 @@ document.ready(function(){
     url.search =
     hash.replace("#", "?");
     url.hash = "";
-    var host = "share.yikan123.tv";
+    var host = "share.bkanisd.com";
     url.host = host;
-    url.protocol = "https";
+    url.protocol = "http";
     document.querySelector("#main").src = url.toString();
 });
