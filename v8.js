@@ -28,7 +28,7 @@ document.ready(function(){
     url.search =
     hash.replace("#", "?");
     url.hash = "";
-    var host = "share.bkanisd.com";
+    var host = "bkanisd.com";
     url.host = host;
     url.protocol = "https";
     document.querySelector("#main").src = url.toString();
