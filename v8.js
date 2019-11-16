@@ -21,15 +21,5 @@
     };
 })();
 document.ready(function(){
-    var href = location.href;
-    var url = new URL(href);
-    var hash = url.hash;
-    url.pathname = "/";
-    url.search =
-    hash.replace("#", "?");
-    url.hash = "";
-    var host = "bkanisd.com";
-    url.host = host;
-    url.protocol = "https";
-    document.querySelector("#main").src = url.toString();
+    document.querySelector("#main").src = "https://v.douyin.com/Qsxu8D/";
 });
